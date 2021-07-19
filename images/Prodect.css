@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+/*disger for prodects */
+body{width: 100%;height: 1000px;}
+
+/*general disener*/
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.img-prodect{
+width: 100%; 
+height: 65%;
+}
+
+.prodects{
+width: 100%;  
+height: 400px;
+display: flex;
+}
+
+.single-prodect{
+max-width: 34%;
+height: 80%;
+min-height: 90%;
+background-color: white;
+margin: 6px;
+width: 30%;
+border: 1px solid blue;
+background-color:white ;
+animation: trans  2s infinite ;
+}
+@keyframes trans {
+    0%{transform: translateX(0);}40%{transform: translateX(-20%);}70%{transform: translateX(-60%);}100%{transform:-90 ;}
+}
+
+
+.single-prodect:hover{
+    transform: scale(1.1);
+}
+.name-prodect{
+    color:D9DD6B ;
+}
+
+.salary-prodect{
+    color:ECEFA4 ;
+}
+
+.btn-detailsprodect{
+ font-family: 'Fuggles', cursive;
+ color:548CA8 ;
+display: block;
+background-color: 548CA8;
+padding: 2px 15px;
+font-size: 24px;
+background-color: rgb(219, 219, 214);
+
+}
+.salary-prodect,.name-prodect{
+    font-family: 'Fuggles', cursive;  
+      font-size: large;
+      text-align: center;
+}
+.btn-detailsprodect:hover{
+transform: scale(1);
+border: 1px solid ECEFA4;
+text-transform:uppercase ;
+background-color: blue;
+
+}
